@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/bg-pattern-top.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 600px 620px;
+    background-color:  hsl(185, 75%, 39%);
+}
+
+.container{
+    background: white;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upper-div{
+    height: 140px;
+    background-image: url("images/bg-pattern-card.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lower-div{
+    height: 240px;
+    background:  #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.image-div{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transform: translate(100px, 100px);
+}
+.image-div img{
+    border: 5px solid white;
+    background: #fff;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}
+
+.text{
+    text-align: center;
+    transform: translate(0px, 70px);
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+.text p{
+    padding: 5px;
+    color:  hsl(0, 0%, 59%);
+}
+.text b{
+    color: black;
+    font-size: 20px;
+}
+
+.container2{
+    display: flex;
+    margin-top: 10px;
+    justify-content:space-between;
+    padding: 10px;
+    transform: translate(0px, 90px);
+}
+
+.container2 h3{
+    font-size: 18px;
+}
+
+.container2 p{
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+.bottom-bgImage img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
