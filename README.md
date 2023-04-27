@@ -1,4 +1,6 @@
 # Frontend Mentor - Profile card component
+live server: https://the-user01.github.io/portfolioCard-frontendMentor/
+
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
